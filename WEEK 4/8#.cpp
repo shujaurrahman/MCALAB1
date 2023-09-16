@@ -13,8 +13,7 @@ int main(){
     	sum=sum + (r*r*r);
     	num=num/10; //skiping the last digit of the number	
 	}
-	
-	
+		
 	if(armstrong==sum)
 		cout<<"Entered Number is Arnmstrong Number.";
 	else

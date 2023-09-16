@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 // for loop approach but post increment has been used in the addition 
 // there this is invalid
 int add(int a,int b){
@@ -21,6 +20,8 @@ int addusingbitwise(int a,int b){
 	}
 }
 int main(){
+	cout<<"Write a cpp progam to add two Numbers without + operator \n";
+	cout<<"---------------------------------------------------------\n";
 	int a,b;
 	cout<<"Enter Number a: ";
     cin>>a;

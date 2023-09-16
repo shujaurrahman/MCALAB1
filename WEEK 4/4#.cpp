@@ -7,10 +7,7 @@ int main(){
 	cout<<"Enter the total Number of terms you want in Fibonacci Series to be printed: \n";
 	cin>>n;
 	cout<<"Fibonacci Series is : ";
-	
-	
 	// stadard input output process from user.
-	
 	// for loop with int i=1 intialization and upto eqaul n i.e no of terms user asked.
 	for(int i=1;i<=n; i++){
 		if(i==1){

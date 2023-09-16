@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
+	cout<<"Write a cpp program to print result of given operation \n";
+	cout<<"------------------------------------------------------\n";
 	int a,b,c,d,e,f,g;
 	float operation;
 	cout<<"Enter the Value of a:";

@@ -25,16 +25,16 @@ int main(){
 		//flag intialization for check if number remains indivisible
 		
 		for(int i=2; i<=x/2; i++){	
-		    //loop for check divisiblity of number by half of its number
+		    //loop for checking divisiblity of number till half of the number
 		    
 			if(x%i==0){
-				//if any number in thus loop divides x flag is assigned 1 and that number cannot be prime.
+				//if any number in the loop divides x , flag is assigned 1 and that number cannot be prime.
 			    flag=1;
 				break;
 				// break if any number divides no need to check further.
 			}
 		}
-		// if for inloop x flag remains o print that x as that is prime.
+		// if in for loop x flag remains 0, print  x is prime.
 		if(flag==0){
 			cout<<x<<" ";
 		}
