@@ -24,7 +24,6 @@ int main()
     cout << "Enter the elements of Array: "<<endl;
 
     // Inserting element in array using for loop
-
     for (int i = 0; i < len; i++)
     {
         cout << "Enter the element of array at position " << i << " :";
