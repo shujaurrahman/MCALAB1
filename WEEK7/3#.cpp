@@ -60,7 +60,5 @@ int main()
 
     //Deallocate the dynamically allocated memory
     delete[] arr; 
-    
-
     return 0;
 }

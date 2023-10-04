@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	cout<<"To add two Numbers using pointer: \n";
+	cout<<"To add Two Numbers using pointer: \n";
 	cout<<"----------------------------------\n";
 	
 	//Variable Declaration

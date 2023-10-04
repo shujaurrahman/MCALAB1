@@ -6,7 +6,7 @@ class pntr_ref{
     public:
         pntr_ref& set_data(int val){
             this->val=val;
-            return *this; //Refrencing current object thus we can chain get and set .
+            return *this; //Refrencing current object thus we can chain get and set.
         };
 
         void get_data(){
@@ -20,7 +20,6 @@ int main(){
     cin>>a;
 
     pntr_ref obj1;
-
     obj1.set_data(a).get_data();
     
    return 0;

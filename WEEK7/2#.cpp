@@ -4,7 +4,7 @@ int main(){
 	cout<<"Write a C++ Program for Length of String Using Pointer.\n";
 	cout<<"--------------------------------------------------------\n";
 	char str[100];
-	cout<<"Enter the string of length under 100 :";
+	cout<<"Enter the string :";
 	cin.getline(str,100); //Gets string
 	char *ptr; //Pointer declaration
 	int i=0;   //Initialization
