@@ -5,12 +5,11 @@ using namespace std;
 //Function to reverse string
 //Approach without function can be seen in flowchart --
 void reverseString(char* str,int len){
-	int i;
 	char *begin_ptr,*end_ptr,ch;
 	begin_ptr=str;
 	end_ptr=str+len-1;
 	
-	for(i=0;begin_ptr<end_ptr;i++){
+	for(int i=0;begin_ptr<end_ptr;i++){
 		ch=*end_ptr;
 		*end_ptr=*begin_ptr;
 		*begin_ptr=ch;

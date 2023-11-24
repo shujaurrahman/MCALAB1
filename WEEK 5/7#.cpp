@@ -19,13 +19,13 @@ int main(){
         else if (arr[i] < 0) {
             negative++;
         }
-        if (arr[i] % 2 == 0) {
+        else if (arr[i] % 2 == 0) {
             even++;
         }
         else if (arr[i] % 2 != 0) {
             odd++;
         }
-        if (arr[i] == 0) {
+        else if (arr[i] == 0) {
             zero++;
         }
     }

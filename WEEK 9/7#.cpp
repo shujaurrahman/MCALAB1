@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int largest(int arr[],int max,int size){
    if (size==0){
       return max;
@@ -13,8 +12,6 @@ int largest(int arr[],int max,int size){
 
    return largest(arr,max,size-1);
 }
-
-
 int smallest(int arr[],int min,int size){
    if (size==0){
       return min;
@@ -26,8 +23,6 @@ int smallest(int arr[],int min,int size){
    }
    return smallest(arr,min,size-1);
 }
-
-
 int main(){
    cout<<"To find Minimum and Maximum of Array using recrusion:\n ";
    //Get array
@@ -45,6 +40,5 @@ int main(){
    int min=arr[0];
    cout<<"\nThe Maximum Element of array is : "<<largest(arr,max,size-1);
    cout<<"\nThe Minimum Element of array is : "<<smallest(arr,min,size-1);
-   
    return 0;
 }

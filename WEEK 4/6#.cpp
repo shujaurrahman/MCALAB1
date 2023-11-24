@@ -10,7 +10,7 @@ int main(){
 	
 	
 	//capital letter range check
-	if(c>55 && c<90){
+	if(c>65 && c<90){
 		cout<<"You Entered a Capital letter."<<"i.e: \t"<<c;
 	}
 	

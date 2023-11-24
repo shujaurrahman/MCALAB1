@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
-
 struct Address {
     string name;
     string home_address;

@@ -21,7 +21,7 @@ int main(){
     cin>>arr[i];
    }
 
-   int result=sum_array(arr,size-1,0);
+   int result=sum_array(arr,size,0);
    cout<<"Result of additiong of elements of array using recursion is : "<<result; 
    return 0;
 }

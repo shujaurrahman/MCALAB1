@@ -13,17 +13,14 @@ int main(){
 	cout<<"Enter the Second String: ";
 	cin>>str2;
 	
-//	while(*(++p1));
-//	
-//	while(*(p1++)=*(p2++));
-	//Second Approach 
 	p1=str1;
 	p2=str2;
 	while(*p1!='\0'){
 		p1++;
 	}
 	while(*p2!='\0'){
-			*p1=*p2;
+			*p1=*p2; //p1 has already reached null in uper while loop it start copyiing here in end 
+			       // of p1 th string of p2 
 			 p1++;
 			 p2++;
 	}

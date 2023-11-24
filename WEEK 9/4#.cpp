@@ -2,10 +2,10 @@
 #include<iostream>
 using namespace std;
 //call by value 
-void swap_value(int *a,int *b){
-  int temp=*a;
-  *a=*b;
-  *b=temp;
+void swap_value(int a,int b){
+  int temp=a;
+  a=b;
+  b=temp;
 }
 void swap_ref(int &a,int &b){
     int temp=a;
@@ -14,7 +14,6 @@ void swap_ref(int &a,int &b){
 }
 int main(){
     cout<<"\n Swaping two variable with call by reference and call by value : \n";
-    
     int a=0,b=0,ch;
     do{
     cout<<"\n Choose options :-";
@@ -23,7 +22,6 @@ int main(){
     cout<<"\n 3. Swap via Call by value";
     cout<<"\n 4. Swap the refernce of variable ";
     cout<<"\n 5. Exit \n";
-
     cout<<"\nEnter : ";
     cin>>ch;
     switch (ch)
@@ -40,7 +38,7 @@ int main(){
         cout<<"b : "<<b;
         break;
     case 3:
-        swap_value(&a,&b);
+        swap_value(a,b);
         cout<<"Values of a and b has been swaped \n";
         break;
     case 4:

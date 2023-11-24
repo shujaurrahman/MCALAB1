@@ -1,5 +1,4 @@
 #include<iostream>
-#include<bits/stdc++.h>
 using namespace std;
 
 //Function merging and sorting
@@ -22,8 +21,7 @@ void mergeAndsort(int arr1[],int arr2[],int n1,int n2,int arr3[]){
 	}	
 	//standard template library function i.e uses Quicksort n*logN switches to heapsot and insertion sor
 	// when array is small 	
-	sort(arr3,arr3+n1+n2);	
-
+	sort(arr3,arr3+n1+n2);
 }
 //Driver code
 int main(){

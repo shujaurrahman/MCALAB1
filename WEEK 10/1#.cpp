@@ -45,7 +45,7 @@ int main(){
     displaycomplexno(num3);
     cout<<"\n\n";
     num4=addcomplexno(num1,num2);
-    cout<<"The multiplication of Complex 1 and Complex 2 : \n";
+    cout<<"The Addition of Complex 1 and Complex 2 : \n";
     displaycomplexno(num4);
     cout<<"\n\n";
    return 0;
