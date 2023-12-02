@@ -40,8 +40,8 @@ int main()
     }
 
     //Calculating the mean of the given data 
-    int mean=sum/len;
-    int standDev=0;
+    float mean=sum/len;
+    float standDev=0;
 
     ptr=arr; // Resetting the pointer.
 

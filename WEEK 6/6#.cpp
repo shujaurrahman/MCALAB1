@@ -20,12 +20,10 @@ int main(){
 	}
 	while(*p2!='\0'){
 			*p1=*p2; //p1 has already reached null in uper while loop it start copyiing here in end 
-			       // of p1 th string of p2 
+			       // of p1 the string of p2 
 			 p1++;
 			 p2++;
 	}
-
-	*p1='\0';
 	
 	cout<<"Concatinated string is : "<<str1<<endl;
 	return 0;

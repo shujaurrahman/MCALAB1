@@ -7,7 +7,7 @@ private:
     string Name;
     long RollNumber;
 public:
-    constructor(const string& name,long num){
+    constructor(string name,long num){
         Name=name;
         RollNumber=num;
     }

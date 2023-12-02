@@ -30,7 +30,7 @@ int main(){
 	//less than are imaginary roots 5+9i i.e divided into real and imginary parts.
 	else{
 		realpart= -b/(2*a);
-		imginarypart= sqrt(-discriminant)/(2*a);
+		imginarypart= sqrt(discriminant)/(2*a);
 		cout<<"Roots are complex and Different, firstroot = "<<realpart<<"+"<<imginarypart<<"i"<< "\t Secondroot = "<<realpart<<"-"<<imginarypart<<"i";
 	}
 	return 0;

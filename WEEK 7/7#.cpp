@@ -9,8 +9,12 @@ class pntr_ref{
             return *this; //Refrencing current object thus we can chain get and set.
         };
 
-        void get_data(){
+        pntr_ref& get_data(){
             cout<<"The Value of Object using this and pointer reference is : "<<this->val;
+            return *this;
+        }
+        void justfun(){
+            cout<<"Shuja is cool";
         }
 };
 int main(){
@@ -20,7 +24,7 @@ int main(){
     cin>>a;
 
     pntr_ref obj1;
-    obj1.set_data(a).get_data();
+    obj1.set_data(a).get_data().justfun();
     
    return 0;
 }

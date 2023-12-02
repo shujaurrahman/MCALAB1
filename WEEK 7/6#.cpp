@@ -9,7 +9,7 @@ private:
     string destination;
     float fare;
 public:
-    void set_data(int flight_no,const string &source,const string &destination,float fare){
+    void set_data(int flight_no,string source,string destination,float fare){
         this->flight_no=flight_no;
         this->source=source;
         this->destination=destination;

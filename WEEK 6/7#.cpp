@@ -23,7 +23,7 @@ int main(){
 	cout<<"\n";
 	cout<<"Display array using pointer: ";
 	for(i=0;i<lenarr;i++){
-		cout<<arr[i]<<" ";
+		cout<<*(arr+i)<<" ";
 	}
 	return 0;
 }

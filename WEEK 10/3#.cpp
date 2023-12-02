@@ -24,5 +24,5 @@ int main(){
     book.authorname="Ravindra singh";
     book.price=150;
     booksInfo(book);
-   return 0;
+    return 0;
 }

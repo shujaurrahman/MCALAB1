@@ -65,11 +65,14 @@ int main(){
     Teaching casualTeaching("Saim");
     NonTeaching nonTeaching("Alkaram");
     Officer officer("Yusuf");
+    Officer officer1("Saud");
 
     // Display staff details
     regularTeaching.display();
     casualTeaching.display();
     nonTeaching.display();
     officer.display();
+    officer1.display();
+
    return 0;
 }

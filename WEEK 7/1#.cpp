@@ -9,6 +9,7 @@ int countvowel(char *str){
             count++;
         }
         str++;
+		
 	}
 	return count;
 }
